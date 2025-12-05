@@ -150,19 +150,20 @@ h1, h2, h3, h4, h5, .navbar-brand, .font-serif {
   color: white;
 }
 
-/* HERO SECTION */
+/* HERO SECTION FIX MOBILE */
 
 .hero-section {
   background: linear-gradient(var(--hero-overlay), var(--hero-overlay)), url('https://images.unsplash.com/photo-1613490493576-7fde63acd811?q=80&w=2071&auto=format&fit=crop');
   background-size: cover;
   background-position: center;
-  /*min-height: 90vh;*/
+  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   position: relative;
-  height: 100vh;
+  padding-top: 80px;
+  padding-bottom: 60px;
 }
 
 /* BUSCADOR FLOTANTE */
