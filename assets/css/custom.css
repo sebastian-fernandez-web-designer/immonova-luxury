@@ -43,6 +43,16 @@ html, body {
 }
 /* Modo claro (por defecto) */
 
+body.modal-open {
+  padding-right: 0 !important;
+  overflow-y: hidden;
+}
+
+#mainNavbar {
+  padding-right: 0 !important;
+}
+
+
 .navbar .nav-link {
   color: #555555;
   transition: color 0.3s;
@@ -394,4 +404,5 @@ body.loading {
   color: var(--bs-secondary);
   opacity: 0.7;
 }
+
 
