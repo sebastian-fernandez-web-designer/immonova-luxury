@@ -38,6 +38,9 @@ root[data-theme="light"] {
   --card-bg: #0c2340;
 }
 
+html, body {
+  overflow-x: hidden; /* Oculta el desbordamiento horizontal */
+}
 /* Modo claro (por defecto) */
 
 .navbar .nav-link {
